@@ -1,0 +1,247 @@
+
+body {
+	display: block;
+}
+
+header {
+	font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+	width: 100%;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  padding-top: auto;
+  z-index: 1;
+  background-color: white;
+  align-items: center;
+  top: 0px;/*toto vyriešilo problém, 
+  že nad header bol pasik, kde bolo vidiť skrolovaný obsah*/
+  justify-content: space-between;
+}
+
+.head {
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+}
+
+.head img {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+
+
+.content {
+	display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-family: Georgia;
+  margin-left: 4px;
+  margin-right: 10px;
+
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-story {
+  width: 630px;
+}
+
+.image {
+  display: flex;
+}
+
+.story {
+  background-image: url("story.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  width: 630px;
+  height: 300px;
+}
+
+.stories {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.stories.image {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+}
+
+.storyc {
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.fall {
+  background-image: url("fall.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300x;
+  height: 300px;
+  text-align: center;
+}
+
+.storyc.image {
+  width: 600px;
+}
+
+.fall span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 630px;
+}
+
+.camera {
+  background-image: url("camera.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.camera span {
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.firstcstory {
+  display: flex;
+  flex-direction: row;
+}
+
+.column.medium {
+  width: 300;
+}
+
+.medium .main-story {
+  width: 300px;
+}
+
+.cat {
+  background-image: url("cat.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.cat span {
+  text-align: center;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+  margin: 0px;
+
+}
+
+.small .main-story {
+  width: 240px;
+}
+
+.cookie {
+  background-image: url("cookie.png");
+  margin: 0px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.new-bites h2 {
+  font-family: Georgia;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.new-bites .bite {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: dimgray;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 11px 20px;
+}
+
+footer {
+  display: flex;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 300px;
+  flex-direction: column;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.times {
+  border-right: 2px solid white;
+  color: white;
+  padding-right: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list{
+  padding-left: 30px;
+}
+
+.list span {
+  display: inline-block;
+}
